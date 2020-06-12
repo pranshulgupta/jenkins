@@ -1,0 +1,9 @@
+pipeline
+node{
+    stage('build'){
+        echo 'hello world'
+    }
+    stage('Test'){
+        echo 'result'
+    }
+}
